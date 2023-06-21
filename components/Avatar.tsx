@@ -4,9 +4,9 @@ import { useRouter } from "next/router";
 import { useCallback } from "react";
 
 interface AvatarProps {
-    userId: String,
-    isLarge?: Boolean,
-    hasBorder?: Boolean,
+    userId: string,
+    isLarge?: boolean,
+    hasBorder?: boolean,
 }
 
 const Avatar: React.FC<AvatarProps> = ({ userId, isLarge, hasBorder }) => {
